@@ -17,8 +17,8 @@ def upload_files_to_s3(bucket_name, prefix, local_directory):
 # Example usage:
 if __name__ == '__main__':
     # Replace with your S3 bucket name, prefix, and local directory path
-    bucket_name = 'YOUR_S3_BUCKET_NAME'
-    prefix = 'YOUR_PREFIX'
-    local_directory = 'LOCAL_DIRECTORY_PATH'
+    bucket_name = 'atp-npddp-digitaldata-use1-metrics-segregatedjson'
+    prefix = ''
+    local_directory = '/Users/chongwang/PycharmProjects/bob-lab/python/download'
 
     upload_files_to_s3(bucket_name, prefix, local_directory)
